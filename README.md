@@ -18,8 +18,8 @@ Link to the mock app: [here](https://app.moqups.com/Dw2Q5XqdcJ/view)
 
 ## Participants
 
-Buffet Raphael, e-mail: lokiraphael (at) hotmail.com <br/>
-Evershed Steven, e-mail: steven.evershed (at) students.hevs.ch <br/>
-Seppey Sherine, e-mail: sherine.seppey (at) students.hevs.ch <br/>
-Camille Bossel, e-mail: camille (at) foodhack.ch <br/>
-Emilie Dellecker, e-mail: emilie (at) foodhack.ch <br/>
+Buffet Raphael, e-mail: **lokiraphael (at) hotmail.com** <br/>
+Evershed Steven, e-mail: **steven.evershed (at) students.hevs.ch** <br/>
+Seppey Sherine, e-mail: **sherine.seppey (at) students.hevs.ch** <br/>
+Camille Bossel, e-mail: **camille (at) foodhack.ch** <br/>
+Emilie Dellecker, e-mail: **emilie (at) foodhack.ch** <br/>
