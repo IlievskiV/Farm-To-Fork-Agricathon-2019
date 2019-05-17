@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block include %}
+<link rel="stylesheet" href="../static/css/login.css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <center>
+        <h1>Inscription</h1>
+        <br/>
+        <div id="formContent">
+            <form>
+                <input type="text" id="login" name="login" placeholder="Nom d'utilisateur">
+                <input type="password" id="password" name="login" placeholder="Mot de passe">
+                <input type="text" id="entreprise" name="entreprise" placeholder="Entreprise">
+                <input type="text" id="nom" name="nom" placeholder="Nom">
+                <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+                <input type="text" id="phone" name="phone" placeholder="Phone">
+                <input type="text" id="email" name="email" placeholder="E-Mail">
+                <input type="submit" class="fadeIn fourth" value="Inscrire">
+            </form>
+        </div>
+    </center>
+</div>
+{% endblock %}

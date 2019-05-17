@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block include %}
+<link rel="stylesheet" href="../static/css/login.css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <h1>Login</h1>
+            <br/>
+
+            <!-- Login Form -->
+            <form method="post" action="{{ url_for('my_products') }}">
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="Nom d'utilisateur">
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Mot de passe">
+                <input type="submit" class="fadeIn fourth" value="Connexion">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="{{ url_for('sign_up') }}">Pas de compte ?</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

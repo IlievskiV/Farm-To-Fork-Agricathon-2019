@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container">
+
+    <center>
+        <h1>Mes Produits</h1>
+    </center>
+    <br/>
+
+    <div class="row">
+        <h2>Pomme</h2>
+        <br/>
+
+        <div class="col-md-4">
+            <div class="card border-primary" style="width: 18rem;">
+                <img class="card-img-top" src="../static/img/pomme_golden.jpg" alt="Pomme Golden"
+                     style="width:286px;height:180px;">
+                <div class="card-body">
+                    <h3 class="card-title">Golden</h3>
+                    <p class="card-text">Description</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card border-primary" style="width: 18rem;">
+                <img class="card-img-top" src="../static/img/pomme_gala.jpg" alt="Pomme Gala"
+                     style="width:286px;height:180px;">
+                <div class="card-body">
+                    <h3 class="card-title">Gala</h3>
+                    <p class="card-text">Description</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <h2>Abricots</h2>
+        <br/>
+        <div class="card border-primary col-xl-2" style="width: 18rem;">
+            <img class="card-img-top" src="../static/img/abricot.jpg" alt="Abricot"
+                 style="width:286px;height:180px;">
+            <div class="card-body">
+                <h3 class="card-title">Luizet</h3>
+                <p class="card-text">Description</p>
+            </div>
+        </div>
+    </div>
+    <br/>
+
+    <div class="row">
+        <center>
+            <a href="#" role="button" class="btn btn-primary btn-lg">Ajouter du stocks</a>
+            <a href="#" role="button" class="btn btn-primary btn-lg">Ajouter nouveau produit</a>
+        </center>
+    </div>
+    <br/>
+
+</div>
+{% endblock %}
